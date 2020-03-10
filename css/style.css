@@ -4,6 +4,7 @@ body {
 	font-family: "Roboto Slab";
 }
 
+/*Style untuk bar navigasi*/
 nav {
 	margin: 0;
 	width: 100%;
@@ -36,3 +37,58 @@ nav img{
 }
 
 
+/*Styke untuk kelas section*/
+.section h3{
+	margin: 5px;
+}
+
+.section h1{
+	margin: 5px;
+}
+
+.section p{
+	margin: 5px;
+	line-height: 26px;
+	color: #00ff00;
+}
+
+#info_utama{
+	display: flex;
+	width: 100%;
+}
+
+#identitas{
+	width: 50%;
+}
+
+#gambar{
+	margin: 20px;	
+	width: 50%;
+	border-radius: 50px;
+	
+}
+
+#gambar img{
+	border-radius: 50px;
+	display: fixed;
+	width: 100%;
+
+
+}
+
+/*Style untuk button*/
+.call-me{
+	margin:10px 10px 10px 150px;
+	padding: 10px 10px 10px 10px;
+	color: #00ff00;
+	background-color: #fff;
+	border-radius: 30px;
+	border: 1px solid #00ff00;
+	transition: 1s; /*biar smooth*/
+}
+
+.call-me:hover{
+	box-shadow: 0px 10px 20px #ddd;
+	background-color: #00ff00;
+	color:white;
+}
