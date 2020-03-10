@@ -37,6 +37,7 @@ nav img{
 }
 
 
+/*BAGIAN : INFO UTAMA*/
 /*Styke untuk kelas section*/
 .section h3{
 	margin: 5px;
@@ -91,4 +92,14 @@ nav img{
 	box-shadow: 0px 10px 20px #ddd;
 	background-color: #00ff00;
 	color:white;
+}
+
+/*BAGIAN: KEAHLIAN*/
+#keahlian{
+	display: flex;
+	width: 100%;
+}
+.section2{
+	border:1px solid black;
+	
 }
