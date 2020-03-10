@@ -13,18 +13,26 @@ nav {
 	display: fixed;
 	border-radius: 10px;
 }
-ul{
+nav ul{
 	margin: 0;
 	padding: 16px;
 	float: right;
 }
-li{
+nav li{
 	list-style-type: none;
 	display: inline-block;
 	padding: 0 8px; /*untuk mengatur spasi*/
 }
 
-a{
+nav li a{
 	text-decoration: none; /*mengilangkan garis bawah biru*/
 	color: green;
 }
+
+nav img{
+	float:left;
+	width: 100px;
+	padding: 5px 5px;
+}
+
+
